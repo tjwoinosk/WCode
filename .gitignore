@@ -1,0 +1,30 @@
+# Build output (CMake build dirs, binaries, fetched deps)
+build/
+out/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+_deps/
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.pdb
+
+# Python
+__pycache__/
+*.pyc
+
+# WMatTools data: keep the folder, ignore its contents
+WMatTools/data/*
+!WMatTools/data/.gitkeep
+
+# Editor / OS clutter
+.vscode/
+.vs/
+*.swp
+Thumbs.db
+.DS_Store
